@@ -25,8 +25,8 @@ justify-content: space-between;
 #icon-logo{
 margin-top: 30px;
 margin-left: 15px;
-width: 110px;
-height: 40px;
+width: 20%;
+height: 40%;
 }
 nav{
 
@@ -69,7 +69,7 @@ position: relative;
 }
 
 #section-frame{
-width: 90%;
+width: 98%;
 position: absolute;
 left: 50%;
 top: 50%;
@@ -84,17 +84,16 @@ height: 100px;
 
     }
 
+#section-penultimo{
 
-#img-section2{
-
-
-
+width: 100%;
+height: 200px;
 }
 
 p{
 
-font-size: 1.1em;
-padding: 20px;
+font-size: 1em;
+padding: 18px;
 color: white;
 font-family: 'Roboto Mono', monospace;
 text-shadow: 3px 1px 8px darkgrey;
