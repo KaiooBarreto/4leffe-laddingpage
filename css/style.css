@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Abel & family= Kanit:ital,wght@0,400;0,500;1,400 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Bebas +Neue & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+body{
+display: block;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+background: linear-gradient(90deg, rgba(55,54,62,1) 8%, rgba(54,54,62,1) 23%, rgba(31,31,37,1) 34%, rgba(13,13,15,1) 55%, rgba(11,11,13,1) 63%, rgba(0,0,0,1) 76%, rgba(0,0,0,1) 86%);
+font-family: 'Open Sans', sans-serif;
+}
+
+header{
+display: flex;
+height: 100px;
+border-bottom: 1px solid rgb(117, 114, 114);
+justify-content: space-between;
+}
+
+#icon-logo{
+margin-top: 30px;
+margin-left: 15px;
+width: 110px;
+height: 40px;
+}
+nav{
+
+margin-top: 70px;
+margin-right: 28px;
+}
+
+a{
+color: white;
+margin: 0px 8px 0px 8px;
+text-decoration: none;
+font-size: 1.3em;
+text-shadow: 3px 1px 8px darkgrey;
+}
+
+
+#section1 > img{
+width: 100%;
+
+}
+
+#section2{
+
+display: flex;
+flex-direction: row;
+
+}
+
+#section2 > img{
+width: 500px;
+
+}
+
+#section-yt{
+height: 400px;
+width: 100%;
+background-color: rgb(107, 105, 105);
+position: relative;
+
+}
+
+#section-frame{
+
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+border-radius: 50px;
+
+}
+
+#section3 > img{
+    width: 100%;
+    }
+
+
+#img-section2{
+
+
+
+}
+
+p{
+
+font-size: 1.1em;
+padding: 20px;
+color: white;
+font-family: 'Roboto Mono', monospace;
+text-shadow: 3px 1px 8px darkgrey;
+
+}
+
+::-webkit-scrollbar{
+
+display: none;
+
+}
