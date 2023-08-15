@@ -31,14 +31,14 @@ height: 40px;
 nav{
 
 margin-top: 70px;
-margin-right: 28px;
+margin-right: 1px;
 }
 
 a{
 color: white;
 margin: 0px 8px 0px 8px;
 text-decoration: none;
-font-size: 1.3em;
+font-size: 1.2em;
 text-shadow: 3px 1px 8px darkgrey;
 }
 
@@ -49,14 +49,14 @@ width: 100%;
 }
 
 #section2{
-
+width: 100%;
 display: flex;
 flex-direction: row;
 
 }
 
 #section2 > img{
-width: 500px;
+width: 100%;
 
 }
 
@@ -69,7 +69,7 @@ position: relative;
 }
 
 #section-frame{
-
+width: 80%;
 position: absolute;
 left: 50%;
 top: 50%;
@@ -79,7 +79,7 @@ border-radius: 50px;
 }
 
 #section3 > img{
-    width: 630px;
+    width: 100%;
 height: 100px;
 
     }
