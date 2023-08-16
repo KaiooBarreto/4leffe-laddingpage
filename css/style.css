@@ -63,7 +63,7 @@ margin-bottom: 40px;
 p{
 
 font-size: 1.2em;
-padding: 6px;
+padding: 12px;
 color: white;
 background-color: rgba(0, 0, 0, 0.404);
 font-family: 'Roboto Mono', monospace;
@@ -101,7 +101,7 @@ border-radius: 40px;
     width: 100%;
     background-color: black;
     position: relative;
-
+margin-bottom: 45px;
 }
 #section-frame2{
 
@@ -122,5 +122,18 @@ border-radius: 40px;
 ::-webkit-scrollbar{
 
 display: none;
+
+}
+
+footer{
+
+border-top: 1px solid white;
+text-align: center;
+
+}
+
+h3{
+
+color: white;
 
 }
